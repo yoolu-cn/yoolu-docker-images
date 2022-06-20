@@ -12,20 +12,18 @@ jobs:
             - name: Check out the repo
               uses: actions/checkout@v3
 
-            - name: Semantic Release
-                uses: cycjimmy/semantic-release-action@v3
-                id: semantic   # Need an `id` for output variables
-                env:
+            - name: Bump version and push tag
+              uses: anothrNick/github-tag-action@1.36.0
+              id: packageVersion
+              env:
                 GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-                NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+                WITH_V: true
                 
-            - name: Do something when a new release published
-                if: steps.semantic.outputs.new_release_published == 'true'
-                run: |
-                echo ${{ steps.semantic.outputs.new_release_version }}
-                echo ${{ steps.semantic.outputs.new_release_major_version }}
-                echo ${{ steps.semantic.outputs.new_release_minor_version }}
-                echo ${{ steps.semantic.outputs.new_release_patch_version }}
+            - name: Show package.json info
+              run: |
+                echo new_tag:${{ steps.packageVersion.outputs.new_tag }}
+                echo tag:${{ steps.packageVersion.outputs.tag }}
+                echo part:${{ steps.packageVersion.outputs.part }}
 
             - name: Login to Docker Hub
               uses: docker/login-action@v1
@@ -39,4 +37,4 @@ jobs:
                   context: ./
                   file: ./Dockerfile
                   push: true
-                  tags: ${{ secrets.DOCKER_HUB_USERNAME }}/node-template:${{ steps.semantic.outputs.new_release_version }}
+                  tags: ${{ secrets.DOCKER_HUB_USERNAME }}/node-template:${{ steps.packageVersion.outputs.new_tag }}
