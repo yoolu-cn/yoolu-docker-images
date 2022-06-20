@@ -11,7 +11,7 @@ module.exports = {
       "docs",
       "refactor",
       "style",
-      "CI",
+      "ci",
       "perf",
       "release",
       "revert",
@@ -36,10 +36,10 @@ module.exports = {
         "emoji": "🚀",
         "value": "chore"
       },
-      "CI": {
+      "ci": {
         "description": "Continuous Integration | CI 配置",
         "emoji": "🎡",
-        "value": "CI"
+        "value": "ci"
       },
       "docs": {
         "description": "Documentation | 文档",

@@ -1,6 +1,6 @@
 module.exports = {
     header: '',
-    releaseCommitMessageFormat: 'chore: create new release {{currentTag}}',
+    releaseCommitMessageFormat: 'release: create new release {{currentTag}}',
     tagPrefix: '',
     types: [
       { type: 'test', section: 'Tests' },
@@ -10,7 +10,7 @@ module.exports = {
       { type: 'docs', section: 'Documentation' },
       { type: 'refactor', section: 'Code Refactoring' },
       { type: 'style', section: 'Style' },
-      { type: 'CI', section: 'Continuous Integration' },
+      { type: 'ci', section: 'Continuous Integration' },
       { type: 'perf', section: 'Performance Improvements' },
       { type: 'release', section: 'Create a release commit' },
       { type: 'revert', section: 'Revert' },
