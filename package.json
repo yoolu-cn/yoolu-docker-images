@@ -1,6 +1,6 @@
 {
   "name": "yoolu-docker-images",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "🔥🔥🔥 yoolu.cn 基础镜像构建，每次构建完成后自动上传到 dockerHub。",
   "scripts": {
     "commit": "git-cz",
