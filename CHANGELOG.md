@@ -1,4 +1,17 @@
 
+### [2.1.3](https://github.com/yoolu-cn/yoolu-docker-images/compare/v2.1.1...v2.1.3) (2022-06-20)
+
+
+### Create a release commit
+
+* create new release 2.1.2 ([4c66321](https://github.com/yoolu-cn/yoolu-docker-images/commit/4c663219188be47ce4806aa0481b4aea838f1e1b))
+
+
+### Chore
+
+* 🚀 同步version信息 ([e6d49d2](https://github.com/yoolu-cn/yoolu-docker-images/commit/e6d49d2000aee6abe4dcfc61a265b14c3bdef381))
+* 🚀 standard-version 跳过tag ([6032e56](https://github.com/yoolu-cn/yoolu-docker-images/commit/6032e568cc8f938507f153ccf279302e8c468d37))
+
 ### [2.1.2](https://github.com/yoolu-cn/yoolu-docker-images/compare/v2.1.1...v2.1.2) (2022-06-20)
 
 
