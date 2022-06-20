@@ -1,0 +1,38 @@
+{
+  "name": "yoolu-docker-images",
+  "version": "1.0.0",
+  "description": "🔥🔥🔥 yoolu.cn 基础镜像构建，每次构建完成后自动上传到 dockerHub。",
+  "scripts": {
+    "commit": "git-cz",
+    "release": "standard-version"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yoolu-cn/yoolu-docker-images.git"
+  },
+  "keywords": [
+    "docker",
+    "github Actions",
+    "dockerfile"
+  ],
+  "author": "jerry@yoolu.cn",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yoolu-cn/yoolu-docker-images/issues"
+  },
+  "homepage": "https://github.com/yoolu-cn/yoolu-docker-images#readme",
+  "devDependencies": {
+    "@commitlint/cli": "^17.0.2",
+    "@commitlint/config-conventional": "^17.0.2",
+    "git-cz": "^4.9.0",
+    "husky": "^8.0.1"
+  },
+  "dependencies": {
+    "standard-version": "^9.5.0"
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
+  }
+}
