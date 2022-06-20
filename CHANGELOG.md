@@ -1,4 +1,11 @@
 
+### [1.0.4](https://github.com/yoolu-cn/yoolu-docker-images/compare/1.0.3...1.0.4) (2022-06-20)
+
+
+### Continuous Integration
+
+* 🎡 修改 workflows 重置 semantic-release-action 插件 ([2a6b2eb](https://github.com/yoolu-cn/yoolu-docker-images/commit/2a6b2ebc1105f8ca1a7affc38ed81fbc586aac26))
+
 ### [1.0.3](https://github.com/yoolu-cn/yoolu-docker-images/compare/1.0.1...1.0.3) (2022-06-20)
 
 
