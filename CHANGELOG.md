@@ -1,4 +1,21 @@
 
+### [1.0.3](https://github.com/yoolu-cn/yoolu-docker-images/compare/1.0.1...1.0.3) (2022-06-20)
+
+
+### Continuous Integration
+
+* 🎡 workflows 添加 semantic-release-action 插件, 获取代码版本 ([5c12d06](https://github.com/yoolu-cn/yoolu-docker-images/commit/5c12d06c40ed7bf0e917f966869e331519bf07d3))
+
+
+### Create a release commit
+
+* create new release 1.0.2 ([6395d48](https://github.com/yoolu-cn/yoolu-docker-images/commit/6395d4805a1a032b5773e9a73d8fc852c016ae71))
+
+
+### Documentation
+
+* ✏️ 添加代码提交&发布规范文档描述 ([548a450](https://github.com/yoolu-cn/yoolu-docker-images/commit/548a450942a80c93c5fc1e969a13a2eec574fec5))
+
 ### [1.0.2](https://github.com/yoolu-cn/yoolu-docker-images/compare/1.0.1...1.0.2) (2022-06-20)
 
 
