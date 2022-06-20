@@ -1,4 +1,11 @@
 
+### [2.1.2](https://github.com/yoolu-cn/yoolu-docker-images/compare/v2.1.1...v2.1.2) (2022-06-20)
+
+
+### Chore
+
+* 🚀 同步version信息 ([e6d49d2](https://github.com/yoolu-cn/yoolu-docker-images/commit/e6d49d2000aee6abe4dcfc61a265b14c3bdef381))
+
 ### [1.0.4](https://github.com/yoolu-cn/yoolu-docker-images/compare/1.0.3...1.0.4) (2022-06-20)
 
 
