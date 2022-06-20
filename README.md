@@ -5,3 +5,7 @@
 - nginx
 - vim
 - node@v14.x
+
+## husky
+
+- commit 规范提交
