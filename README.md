@@ -13,4 +13,5 @@ pnpm commit
 
 # 生成新的版本 & 并且生成 changelog 文件
 pnpm release:*
+ggg
 ```
